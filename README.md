@@ -71,3 +71,35 @@ export default defineConfig([
   },
 ])
 ```
+File Structure created
+
+src/                          # Main application source code
+│
+├── assets/                   # Static files (images, icons, logos, fonts)
+│
+├── components/               # Reusable UI building blocks
+│   ├── layout/               # App layout components (Header, Sidebar, Footer)
+│   ├── product/              # Product-related UI (ProductCard, Gallery, etc.)
+│   ├── messaging/            # Chat system UI components
+│   ├── profile/              # Profile & badge related components
+│   ├── ui/                   # Generic reusable UI (Button, Input, Modal)
+│
+├── pages/                    # Full application pages (mapped to routes)
+│
+├── routes/                   # React Router configuration
+│
+├── services/                 # API layer (axios config & backend calls)
+│
+├── store/                    # Global state management (Zustand stores)
+│
+├── hooks/                    # Custom reusable React hooks
+│
+├── types/                    # TypeScript interfaces & type definitions
+│
+├── utils/                    # Helper & utility functions (pure logic)
+│
+├── App.tsx                   # Root component (renders routes & layout)
+├── main.tsx                  # Application entry point (React DOM mount)
+├── index.css                 # Global styles & base CSS
+
+
