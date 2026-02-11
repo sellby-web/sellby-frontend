@@ -71,7 +71,10 @@ export default defineConfig([
   },
 ])
 ```
-File Structure created
+
+File Structure Created
+
+```
 
 src/                          # Main application source code
 │
@@ -101,5 +104,7 @@ src/                          # Main application source code
 ├── App.tsx                   # Root component (renders routes & layout)
 ├── main.tsx                  # Application entry point (React DOM mount)
 ├── index.css                 # Global styles & base CSS
+
+```
 
 
