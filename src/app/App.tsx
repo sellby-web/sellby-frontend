@@ -1,10 +1,10 @@
+import Sidebar from "../shared/components/Sidebar/Sidebar";
+
 function App() {
   return (
-    <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+      <Sidebar />
+    </div>
   );
 }
 
