@@ -12,8 +12,10 @@
     background-color: #8fa78e;
     color: black;
 
-    font-weight: 600;
+    font-weight: 400;
     font-family: poppins, sans-serif;
+
+    height: 65px;
 }
 
 .messageBadge {
@@ -34,7 +36,7 @@
     border-radius: 50%;
 
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     font-family: poppins, sans-serif;
 }
 

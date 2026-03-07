@@ -7,7 +7,7 @@ type MessageButtonProps = {
   onClick: () => void;
 };
 
-function MessageButton({ label, count, onClick }) {
+function MessageButton({ label, count, onClick } : MessageButtonProps) {
   return (
     <button className={styles.messageButton} onClick={onClick}>
       <span className={styles.left}>
