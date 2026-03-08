@@ -7,9 +7,39 @@ align-items: center;
 box-sizing: border-box;
 }
 
-.nav {
+.right {
     margin-left: auto;
     display: flex;
     gap: 12px;
     align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.logo h1 {
+    margin: 0;
+    line-height: 0.75;
+}
+
+.logo h1:first-child {
+    color: black;
+    font-weight: 700;
+}
+
+.logo h1:last-child {
+    color: #D06132;
+    font-weight: 700;
 }
