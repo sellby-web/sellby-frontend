@@ -8,14 +8,14 @@ import SearchBar from "../../shared/components/Button/SearchBar";
 function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.left}>
+      <div className={styles.headerLeft}>
         <span className={styles.logo}>
           <h1>Sellby</h1>
           <h1>MU</h1>
         </span>
         <SearchBar placeholder="Calculator fx 99..." />
       </div>
-      <div className={styles.right}>
+      <div className={styles.headerRight}>
         <MessageButton
           label="Messages"
           count={5}

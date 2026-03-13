@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     gap: 0px;
-    
+
     padding: 8px 24px;
     border-radius: 999px;
 
@@ -18,11 +18,29 @@
     height: 65px;
 }
 
+.messageLabel {
+    font-size: 20px;
+}
+
+.messageIconContainer {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+}
+
+.messageIcon {
+    width: 32px;
+    height: 32px;
+    color: #111;
+}
+
 .messageBadge {
     position: absolute;
     top: 0px;
     left: 0px;
-    
+
     background-color: #e58353;
     color: black;
 
@@ -38,22 +56,4 @@
     font-size: 16px;
     font-weight: 400;
     font-family: poppins, sans-serif;
-}
-
-.left {
-  position: relative;
-  width: 54px;
-  height: 54px;
-  display: grid;
-  place-items: center;
-}
-
-.messageLabel {
-    font-size: 20px;
-}
-
-.messageIcon {
-    width: 32px;
-    height: 32px;
-    color: #111;
 }

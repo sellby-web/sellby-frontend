@@ -12,7 +12,7 @@ function SearchBar({ placeholder }: SearchBarProps) {
       <input
         type="text"
         placeholder={placeholder}
-        className={styles.input}
+        className={styles.searchInput}
       />
     </div>
   );

@@ -10,7 +10,7 @@ type MessageButtonProps = {
 function MessageButton({ label, count, onClick } : MessageButtonProps) {
   return (
     <button className={styles.messageButton} onClick={onClick}>
-      <span className={styles.left}>
+      <span className={styles.messageIconContainer}>
         <img
           src="/icons/MessageIcon.svg"
           alt="Messages"
