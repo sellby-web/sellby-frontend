@@ -1,0 +1,31 @@
+.profileButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 8px 0 8px 18px;
+    border-radius: 999px;
+
+    border: none;
+    cursor: pointer;
+
+    background-color: #e7d3c5;
+    color: black;
+
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+
+    height: 65px;
+    min-width: 230px;
+}
+
+.avatar {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #E67E51;
+}
+
+.profileName {
+    font-size: 20px;
+}

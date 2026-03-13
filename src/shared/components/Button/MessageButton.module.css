@@ -1,0 +1,59 @@
+.messageButton {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+
+    padding: 8px 24px;
+    border-radius: 999px;
+
+    border: none;
+    cursor: pointer;
+
+    background-color: #8fa78e;
+    color: black;
+
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+
+    height: 65px;
+}
+
+.messageLabel {
+    font-size: 20px;
+}
+
+.messageIconContainer {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+}
+
+.messageIcon {
+    width: 32px;
+    height: 32px;
+    color: #111;
+}
+
+.messageBadge {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    background-color: #e58353;
+    color: black;
+
+    width: 22px;
+    height: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+}

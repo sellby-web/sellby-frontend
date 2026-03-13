@@ -1,0 +1,31 @@
+.searchBar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 0 24px;
+    min-width: 300px;
+    height: 55px;
+    
+    border-radius: 999px;
+    border: 3px solid #7c7f87;
+
+    background: #ececec;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    background: transparent;
+
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    flex: 1;
+    color: black;
+}
+
+.searchIcon {
+    width: 32px;
+    height: 32px;
+}
