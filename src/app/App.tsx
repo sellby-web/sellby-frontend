@@ -1,10 +1,9 @@
-import Header from "./layout/Header";
+import React from 'react';
+import HomePage from '../features/home/pages/HomePage';
 
 function App() {
   return (
-    <>
-      <Header/>
-    </>
+    <HomePage />
   );
 }
 
