@@ -1,7 +1,9 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, 400px);
+  gap: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
 }
 
 /* mobile */

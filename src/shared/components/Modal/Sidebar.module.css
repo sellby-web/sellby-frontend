@@ -1,0 +1,36 @@
+.sidebar {
+  width: 180px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  padding: 40px 20px 40px 40px;
+  flex-shrink: 0;
+}
+
+.sidebarNav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebarLink {
+  font-size: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #A39789;
+  cursor: pointer;
+  color: black;
+}
+
+.sellBtn {
+  margin-top: auto;
+  padding: 12px 12px;
+  border-radius: 80px;
+  background: #E67E51;
+  font-weight: 800;
+  color: black;
+  font-size: 23px;
+  border: none;
+  cursor: pointer;
+}
