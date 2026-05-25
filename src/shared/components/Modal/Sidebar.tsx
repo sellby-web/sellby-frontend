@@ -1,7 +1,13 @@
 import React from "react";
 import styles from "./Sidebar.module.css";
 
-function Sidebar() {
+type sidebarProps = {
+  mode?: "default" | "sell";
+  onPost: () => void;
+  onCancel: () => void;
+};
+
+function Sidebar({ mode, onPost, onCancel }: sidebarProps) {
   return (
     <aside className={styles.sidebar}>
       <nav className={styles.sidebarNav}>
@@ -11,7 +17,18 @@ function Sidebar() {
         <a className={styles.sidebarLink}>Settings</a>
       </nav>
 
-      <button className={styles.sellBtn}>Sell Item +</button>
+      {mode === "sell" ? (
+        <div className={styles.sellActions}>
+          <button className={styles.postButton} onClick={onPost}>
+            Post
+          </button>
+          <button className={styles.cancelButton} onClick={onCancel}>
+            Cancel
+          </button>
+        </div>
+      ) : (
+        <button className={styles.sellBtn}>Sell Item +</button>
+      )}
     </aside>
   );
 }
