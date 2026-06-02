@@ -1,0 +1,99 @@
+.chatPanelContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 400px;
+    margin-top: 78px;
+    border-top: solid 1px #e0e0e0;
+}
+.chatHeader {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.backIcon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.backButton {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.avatarContainer {
+    width: 56px;
+    height: 56px;
+    border-radius: 999px;
+    border: none;
+    overflow: hidden;
+    background-color: #FACFBC;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.name {
+    flex: 1;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.deleteButton {
+    background-color: #FFD1D1;
+    border: none;
+    border-radius: 999px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.deleteIcon {
+    width: 16px;
+    height: 16px;
+    color: black;
+}
+.messagesContainer {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.inputContainer {
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    border-top: 1px solid #e0e0e0;
+    gap: 10px;
+}
+.messageInput {
+    flex: 1;
+    padding: 10px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 14px;
+    color: black;
+    outline: none;
+}
+
+.sendButton {
+  padding: 10px 20px;
+  background-color: #E67E51;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
