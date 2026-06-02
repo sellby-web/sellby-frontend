@@ -1,0 +1,38 @@
+.formTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.fieldGroup {
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.fieldGroup input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1.5px solid #d6d6d6;
+    outline: none;
+    background: transparent;
+    color: #222;
+    transition: border-color 0.2s ease;
+}
+
+.fieldGroup input:focus {
+    border-bottom: 1.5px solid #e07a4f;
+}
+
+.fieldGroup input::placeholder {
+  color: #9a9a9a;
+  font-size: 14px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}

@@ -1,0 +1,36 @@
+.uploadContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.uploadButton {
+    width: fit-content;
+    padding: 10px 20px;
+    display: flex;
+    gap: 8px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #E4E4E4;
+    color: black;
+
+    cursor: pointer;
+}
+
+.imageGrid {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.imageBox {
+    width: 100px;
+    height: 150px;
+
+    border-radius: 10px;
+
+    position: relative;
+    background-color: #F4EADE;
+}

@@ -34,3 +34,32 @@
   border: none;
   cursor: pointer;
 }
+
+.sellActions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 80px;
+}
+
+.postButton {
+  padding: 12px 12px;
+  border-radius: 80px;
+  background: #E67E51;
+  font-weight: 800;
+  color: black;
+  font-size: 23px;
+  border: none;
+  cursor: pointer;
+}
+
+.cancelButton {
+  padding: 12px 12px;
+  border-radius: 80px;
+  background: #FFDED0;
+  font-weight: 800;
+  color: black;
+  font-size: 23px;
+  border: none;
+  cursor: pointer;
+}
