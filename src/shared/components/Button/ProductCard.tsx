@@ -7,8 +7,10 @@ type ProductCardProps = {
   price: number;
   time: string;
   imageUrl?: string;
+  variant?: "default" | "my-ads";
   onButtonClick: () => void;
   onCardClick: () => void;
+  onDeleteClick?: () => void;
 };
 
 function ProductCard({
@@ -17,8 +19,10 @@ function ProductCard({
   price,
   time,
   imageUrl,
+  variant = "default",
   onButtonClick,
   onCardClick,
+  onDeleteClick,
 }: ProductCardProps) {
   return (
     <div className={styles.productCard} onClick={onCardClick}>
@@ -40,7 +44,28 @@ function ProductCard({
             <span className={styles.postedTime}>2 hours ago</span>
           </div>
 
-          <button className={styles.productEnquiryButton}>Message</button>
+          {variant === "default" ? (
+            <button className={styles.productEnquiryButton}>Message</button>
+          ) : (
+            <div className={styles.myAdsButtonContainer}>
+              <button
+                className={styles.productDeleteButton}
+                onClick={onDeleteClick}
+              >
+                <img
+                  src="/icons/DeleteIcon.svg"
+                  alt="Delete"
+                  className={styles.deleteIcon}
+                />
+              </button>
+              <button
+                className={styles.productViewButton}
+                onClick={onButtonClick}
+              >
+                View
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>
