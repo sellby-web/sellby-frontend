@@ -1,0 +1,122 @@
+.profilePageStyle {
+  display: flex;
+}
+
+.profilePageContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.pageTitle{
+    color: black;
+    font-weight: 500;
+}
+
+.backSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #2d2d2d;
+  padding: 0;
+}
+
+.backIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.userInfoSection {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: black;
+
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.userName,
+.userEmail {
+  margin: 0;
+}
+
+.avatarContainer {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #facfbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #facfbc;
+  object-fit: cover;
+}
+
+.input {
+  width: 300px;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  font-size: 14px;
+  color: #2d2d2d;
+  outline: none;
+}
+
+.input:focus {
+  border-bottom-color: #c1603a;
+}
+
+.actionsSection {
+  display: flex;
+  gap: 15px;
+}
+
+.deleteButton,
+.logoutButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 24px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.deleteButton {
+  background-color: #FFD1D1;
+  color: black;
+}
+
+.logoutButton {
+  background-color: #E67E51;
+  color: black;
+}
+
+.deleteIcon,
+.logoutIcon {
+  width: 30px;
+  height: 30px;
+}
