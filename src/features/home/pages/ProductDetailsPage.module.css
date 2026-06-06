@@ -1,0 +1,116 @@
+.detailsPageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.detailsPageContent {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.detailsPageMain {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    padding: 20px;
+    margin-right: solid 1px black;
+    overflow-y: auto;
+}
+
+.backButton {
+    background: none;
+    border: none;
+}
+
+.backIcon {
+    width: 16px;
+    height: 16px;
+    color: black;
+}
+
+.productTitle {
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+}
+
+.sellerInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.userImageContainer {
+    width: 54px;
+    height: 54px;
+    background-color: #FACFBC;
+    border-radius: 999px;
+}
+
+.userImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 999px;
+}
+
+.sellerName {
+    font-size: 18px;
+    color: black;
+    background-color: none;
+    font-weight: 400;
+}
+
+.messageButton {
+    border: none;
+    border-radius: 999px;
+    background-color: #E67E51;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    margin-left: auto;
+}
+
+.imageGrid {
+    display: flex;
+    gap: 16px;
+    margin: 20px 0 20px 0;
+}
+
+.imageBox {
+    width: 100px;
+    height: 150px;
+
+    border-radius: 10px;
+
+    position: relative;
+    background-color: #F4EADE;
+}
+
+.productDescription {
+    font-size: 14px;
+    color: black;
+    background-color: none;
+    font-weight: 400s;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.timeStamp {
+    font-size: 14px;
+    color: black;
+}
