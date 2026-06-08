@@ -18,7 +18,7 @@ function CategoryChips({
       {categories.map((category) => {
         const isSelected = selectedCategory.includes(category);
         return (
-          <buttton
+          <button
             key={category}
             type="button"
             onClick={() => onToggle(category)}
@@ -26,7 +26,7 @@ function CategoryChips({
           >
             {category}
             {isSelected && <span className={styles.closeIcon}>x</span>}
-          </buttton>
+          </button>
         );
       })}
     </div>

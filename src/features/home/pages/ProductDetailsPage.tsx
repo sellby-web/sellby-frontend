@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../../app/layout/Header";
 import Sidebar from "../../../shared/components/Modal/Sidebar";
 import styles from "./ProductDetailsPage.module.css";
+import { useNavigate } from "react-router-dom";
 
 type ProductDetailsPageProps = {
   imgUrl: string;
@@ -18,6 +19,13 @@ function ProductDetailsPage({
   price,
   timeStamp,
 }: ProductDetailsPageProps) {
+  const navigate = useNavigate();
+  const handleMessageClick = () => {
+    navigate("/messages");
+  };
+  const handleBackClick = () => {
+    navigate("/home");
+  };
   return (
     <div className={styles.detailsPageContainer}>
       <Header />
@@ -26,7 +34,7 @@ function ProductDetailsPage({
         <main className={styles.detailsPageMain}>
           {/** Back Button */}
           <div>
-            <button className={styles.backButton}>
+            <button className={styles.backButton} onClick={handleBackClick}>
               <img
                 src={"icons/BackIcon.svg"}
                 alt="Back Icon"
@@ -52,7 +60,12 @@ function ProductDetailsPage({
               )}
             </div>
             <h3 className={styles.sellerName}>Akhiljith Kumar</h3>
-            <button className={styles.messageButton}>Message</button>
+            <button
+              className={styles.messageButton}
+              onClick={handleMessageClick}
+            >
+              Message
+            </button>
           </div>
 
           {/** Product Images */}
