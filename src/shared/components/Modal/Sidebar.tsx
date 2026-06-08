@@ -3,8 +3,8 @@ import { Link, useNavigate } from "react-router-dom";
 
 type sidebarProps = {
   mode?: "default" | "sell";
-  onPost: () => void;
-  onCancel: () => void;
+  onPost?: () => void;
+  onCancel?: () => void;
 };
 
 function Sidebar({ mode, onPost, onCancel}: sidebarProps) {

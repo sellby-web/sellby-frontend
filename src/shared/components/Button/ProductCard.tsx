@@ -5,7 +5,7 @@ type ProductCardProps = {
   title: string;
   subject: string;
   price: number;
-  time: string;
+  time?: string;
   imageUrl?: string;
   variant?: "default" | "my-ads";
   onButtonClick: () => void;
