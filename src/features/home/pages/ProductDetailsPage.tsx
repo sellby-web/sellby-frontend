@@ -4,11 +4,11 @@ import styles from "./ProductDetailsPage.module.css";
 import { useNavigate } from "react-router-dom";
 
 type ProductDetailsPageProps = {
-  imgUrl: string;
-  productTitle: string;
-  name: string;
-  price: number;
-  timeStamp: string;
+  imgUrl?: string;
+  productTitle?: string;
+  name?: string;
+  price?: number;
+  timeStamp?: string;
 };
 
 function ProductDetailsPage({

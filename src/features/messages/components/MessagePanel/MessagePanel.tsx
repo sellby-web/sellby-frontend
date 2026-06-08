@@ -6,7 +6,7 @@ type message = {
   id: string;
   text: string;
   isSent: boolean;
-  timestamp: string;
+  timestamp?: string;
 };
 
 type messagePanelProps = {

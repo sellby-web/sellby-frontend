@@ -11,7 +11,7 @@ type Product = {
 };
 
 type ProductCatalogProps = {
-  products: [];
+  products: Product[];
   onCardClick: (productId: string) => void;
   onMessageClick: (productId: string) => void;
 };
