@@ -3,15 +3,19 @@ import styles from "./AuthPage.module.css";
 import background from "../assets/background.png";
 import mascot from "../assets/sellby-masscot.png";
 import { useState } from "react";
+import {useNavigate} from "react-router-dom";
 
 function AuthPage() {
+  const navigate = useNavigate();
   const [email, setEmail] = useState<string>("");
   const [otp, setOtp] = useState<string>("");
   const [step, setStep] = useState<"email" | "otp">("email");
 
   const handleProceed = () => {
-    if (email) {
+    if (step === "email" && email) {
       setStep("otp");
+    } else if (step === "otp" && otp) {
+      navigate('/home');
     }
   };
 

@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../../app/layout/Header";
 import Sidebar from "../../../shared/components/Modal/Sidebar";
 import styles from "./ProfilePage.module.css";
+import { useNavigate } from "react-router-dom";
 
 type profilePageProps = {
   imageUrl?: string;
@@ -18,6 +19,13 @@ function ProfilePage({
   onLogout,
   onDeleteAccount,
 }: profilePageProps) {
+  const navigate = useNavigate();
+  const handleBackClick = () => {
+    navigate("/home");
+  };
+  const handleLogout = () => {
+    navigate("/");
+  };
   return (
     <div>
       <Header />
@@ -25,7 +33,7 @@ function ProfilePage({
         <Sidebar />
         <main className={styles.profilePageContainer}>
           <div className={styles.backSection}>
-            <button className={styles.backButton} onClick={() => {}}>
+            <button className={styles.backButton} onClick={handleBackClick}>
               <img
                 src="icons/BackIcon.svg"
                 alt="back"
@@ -62,7 +70,7 @@ function ProfilePage({
               />
               <span>Delete my account</span>
             </button>
-            <button className={styles.logoutButton} onClick={() => {}}>
+            <button className={styles.logoutButton} onClick={handleLogout}>
               <img
                 src="icons/LogoutIcon.svg"
                 alt="logout"

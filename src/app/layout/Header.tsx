@@ -4,8 +4,16 @@ import React from "react";
 import MessageButton from "../../shared/components/Button/MessageButton";
 import ProfileButton from "../../shared/components/Button/ProfileButton";
 import SearchBar from "../../shared/components/Button/SearchBar";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate();
+  const handleMessageClick = () => {
+    navigate("/messages");
+  };
+  const handleProfileClick = () => {
+    navigate("/settings");
+  };
   return (
     <header className={styles.header}>
       <div className={styles.headerLeft}>
@@ -19,12 +27,12 @@ function Header() {
         <MessageButton
           label="Messages"
           count={5}
-          onClick={() => console.log("Messages clicked")}
+          onClick={handleMessageClick}
         />
         <ProfileButton
           name="Akiljith Kumar"
           avatarUrl="pass the actual avatar url here"
-          onClick={() => console.log("Profile clicked")}
+          onClick={handleProfileClick}
         />
       </div>
     </header>
