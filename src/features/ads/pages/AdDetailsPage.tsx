@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../../../app/layout/Header";
 import Sidebar from "../../../shared/components/Modal/Sidebar";
 import AdForm from "../components/AdForm/AdForm";

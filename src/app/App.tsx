@@ -1,4 +1,3 @@
-import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 import AuthPage from '../features/auth/pages/AuthPage';
 import HomePage from '../features/home/pages/HomePage';

@@ -1,4 +1,3 @@
-import React from "react";
 import UploadImage from "../UploadImage/UploadImage";
 import styles from "./AdForm.module.css";
 import { useState } from "react";

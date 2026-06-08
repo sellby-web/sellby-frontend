@@ -1,6 +1,4 @@
 import styles from "./Header.module.css";
-
-import React from "react";
 import MessageButton from "../../shared/components/Button/MessageButton";
 import ProfileButton from "../../shared/components/Button/ProfileButton";
 import SearchBar from "../../shared/components/Button/SearchBar";
