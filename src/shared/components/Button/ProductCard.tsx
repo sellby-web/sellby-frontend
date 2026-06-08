@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ProductCard.module.css";
+import { useNavigate } from "react-router-dom";
 
 type ProductCardProps = {
   title: string;
@@ -24,8 +25,18 @@ function ProductCard({
   onCardClick,
   onDeleteClick,
 }: ProductCardProps) {
+  const navigate = useNavigate();
+  const handleCardClick = () => {
+    navigate("/product-details");
+  };
+  {/** Message click has to handled seperated cause currently the click triggers the card click*/}
+  {/** Also I think the handle functions should be defined in the appropriate pages,
+    either home or my-ads and passed down to the message card compoenent as props*/}
+  const handleMessageClick = () => {
+    navigate('/messages');
+  };
   return (
-    <div className={styles.productCard} onClick={onCardClick}>
+    <div className={styles.productCard} onClick={handleCardClick}>
       <div className={styles.productImage} />
 
       <div className={styles.productContent}>
@@ -45,7 +56,7 @@ function ProductCard({
           </div>
 
           {variant === "default" ? (
-            <button className={styles.productEnquiryButton}>Message</button>
+            <button className={styles.productEnquiryButton} onClick={handleMessageClick}>Message</button>
           ) : (
             <div className={styles.myAdsButtonContainer}>
               <button
@@ -60,7 +71,7 @@ function ProductCard({
               </button>
               <button
                 className={styles.productViewButton}
-                onClick={onButtonClick}
+                onClick={handleCardClick}
               >
                 View
               </button>
