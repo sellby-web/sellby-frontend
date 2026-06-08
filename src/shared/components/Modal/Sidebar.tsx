@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Sidebar.module.css";
+import { Link, useNavigate } from "react-router-dom";
 
 type sidebarProps = {
   mode?: "default" | "sell";
@@ -7,14 +8,28 @@ type sidebarProps = {
   onCancel: () => void;
 };
 
-function Sidebar({ mode, onPost, onCancel }: sidebarProps) {
+function Sidebar({ mode, onPost, onCancel}: sidebarProps) {
+  const navigate = useNavigate();
+
+  const handleSell = () => {
+    navigate("/sell");
+  };
+
   return (
     <aside className={styles.sidebar}>
       <nav className={styles.sidebarNav}>
-        <a className={styles.sidebarLink}>Home</a>
-        <a className={styles.sidebarLink}>My Ads</a>
-        <a className={styles.sidebarLink}>Messages</a>
-        <a className={styles.sidebarLink}>Settings</a>
+        <Link to="/home" className={styles.sidebarLink}>
+          Home
+        </Link>
+        <Link to="/my-ads" className={styles.sidebarLink}>
+          My Ads
+        </Link>
+        <Link to="" className={styles.sidebarLink}>
+          About Us
+        </Link>
+        <Link to="/settings" className={styles.sidebarLink}>
+          Settings
+        </Link>
       </nav>
 
       {mode === "sell" ? (
@@ -27,7 +42,9 @@ function Sidebar({ mode, onPost, onCancel }: sidebarProps) {
           </button>
         </div>
       ) : (
-        <button className={styles.sellBtn}>Sell Item +</button>
+        <button onClick={handleSell} className={styles.sellBtn}>
+          Sell Item +
+        </button>
       )}
     </aside>
   );
