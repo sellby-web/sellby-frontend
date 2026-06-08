@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./MessageCatalog.module.css";
 import MessageCard from "../MessageCard/MessageCard";
 

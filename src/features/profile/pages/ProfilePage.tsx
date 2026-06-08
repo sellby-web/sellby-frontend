@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../../../app/layout/Header";
 import Sidebar from "../../../shared/components/Modal/Sidebar";
 import styles from "./ProfilePage.module.css";

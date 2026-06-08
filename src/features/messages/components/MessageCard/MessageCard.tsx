@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./MessageCard.module.css";
 
 type MessageCardProps = {

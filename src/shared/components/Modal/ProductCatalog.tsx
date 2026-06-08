@@ -1,4 +1,3 @@
-import React from "react";
 import ProductCard from "../Button/ProductCard";
 import styles from "./ProductCatalog.module.css";
 

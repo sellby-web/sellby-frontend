@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./AuthPage.module.css";
 import background from "../assets/background.png";
 import mascot from "../assets/sellby-masscot.png";
