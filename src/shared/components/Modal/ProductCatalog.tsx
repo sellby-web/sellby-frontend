@@ -2,7 +2,7 @@ import ProductCard from "../Button/ProductCard";
 import styles from "./ProductCatalog.module.css";
 
 type Product = {
-  id: string;
+  id: number;
   title: string;
   subject: string;
   price: number;
