@@ -3,7 +3,7 @@ import styles from "./CategoryChips.module.css";
 
 type categoryProps = {
   categories: string[];
-  selectedCategory: string | null;
+  selectedCategory: string[];
   onToggle: (category: string) => void;
 };
 
