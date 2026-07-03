@@ -1,7 +1,7 @@
 import UploadImage from "../UploadImage/UploadImage";
 import styles from "./AdForm.module.css";
 import { useState } from "react";
-import CategoryChips from "../../../../shared/components/Button/CategoryChips";
+import CategoryChips from "../../../../shared/components/CategoryChips/CategoryChips";
 
 function AdForm() {
   const [title, setTitle] = useState("");

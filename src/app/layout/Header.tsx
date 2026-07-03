@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
 import MessageButton from "../../shared/components/Button/MessageButton";
 import ProfileButton from "../../shared/components/Button/ProfileButton";
-import SearchBar from "../../shared/components/Button/SearchBar";
+import SearchBar from "../../shared/components/SearchBar/SearchBar";
 import { useNavigate } from "react-router-dom";
 
 function Header() {

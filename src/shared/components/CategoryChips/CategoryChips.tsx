@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styles from "./CategoryChips.module.css";
 
 type categoryProps = {
@@ -11,7 +10,7 @@ function CategoryChips({
   categories,
   selectedCategory,
   onToggle,
-}: categoryProps) {
+}: categoryProps) { 
   return (
     <div className={styles.chipsContainer}>
       {categories.map((category) => {

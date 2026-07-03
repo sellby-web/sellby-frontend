@@ -1,5 +1,5 @@
 import Header from "../../../app/layout/Header";
-import Sidebar from "../../../shared/components/Modal/Sidebar";
+import Sidebar from "../../../shared/components/Sidebar/Sidebar";
 import AdForm from "../components/AdForm/AdForm";
 import styles from "./AdDetailsPage.module.css";
 import { useNavigate } from "react-router-dom";

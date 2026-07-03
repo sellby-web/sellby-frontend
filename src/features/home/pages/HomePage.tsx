@@ -1,6 +1,6 @@
 import Header from "../../../app/layout/Header";
-import ProductCatalog from "../../../shared/components/Modal/ProductCatalog";
-import Sidebar from "../../../shared/components/Modal/Sidebar";
+import ProductCatalog from "../../../shared/components/ProductCatalog/ProductCatalog";
+import Sidebar from "../../../shared/components/Sidebar/Sidebar";
 import styles from "./HomePage.module.css";
 
 function HomePage() {

@@ -1,5 +1,5 @@
 import Header from "../../../app/layout/Header";
-import Sidebar from "../../../shared/components/Modal/Sidebar";
+import Sidebar from "../../../shared/components/Sidebar/Sidebar";
 import MessageCatalog from "../components/MessageCatalog/MessageCatalog";
 import styles from "./MessagePage.module.css";
 import MessagePanel from "../components/MessagePanel/MessagePanel";

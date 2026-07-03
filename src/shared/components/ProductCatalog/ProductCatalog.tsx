@@ -1,4 +1,4 @@
-import ProductCard from "../Button/ProductCard";
+import ProductCard from "../ProductCard/ProductCard";
 import styles from "./ProductCatalog.module.css";
 
 type Product = {

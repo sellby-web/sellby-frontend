@@ -1,6 +1,6 @@
 import Header from "../../../app/layout/Header";
-import Sidebar from "../../../shared/components/Modal/Sidebar";
-import ProductCatalog from "../../../shared/components/Modal/ProductCatalog";
+import Sidebar from "../../../shared/components/Sidebar/Sidebar";
+import ProductCatalog from "../../../shared/components/ProductCatalog/ProductCatalog";
 import styles from "./MyAdPage.module.css";
 
 function MyAdPage() {
