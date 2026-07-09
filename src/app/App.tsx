@@ -6,6 +6,7 @@ import ProfilePage from '../features/profile/pages/ProfilePage';
 import AdDetailsPage from '../features/ads/pages/AdDetailsPage';
 import ProductDetailsPage from '../features/home/pages/ProductDetailsPage';
 import MessagePage from '../features/messages/pages/MessagePage';
+import ErrorPage from '../features/error/pages/ErrorPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/sell" element={<AdDetailsPage />}/>
       <Route path="/product-details" element={<ProductDetailsPage />}/>
       <Route path="/messages" element={<MessagePage />}/>
+      <Route path="*" element={<ErrorPage />}/>
     </Routes>
   );
 }
