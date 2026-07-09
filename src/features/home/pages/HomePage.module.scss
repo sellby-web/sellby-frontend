@@ -1,9 +1,17 @@
 .homePageStyle {
   display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .productCatalog {
   flex: 1;
   padding: 20px;
   padding-left: 40px;
+
+  @media (max-width: 768px) {
+    padding: 12px;
+  }
 }

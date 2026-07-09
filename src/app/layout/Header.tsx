@@ -19,7 +19,9 @@ function Header() {
           <h1>Sellby</h1>
           <h1>MU</h1>
         </span>
-        <SearchBar placeholder="Calculator fx 99..." />
+        <div className={styles.headerSearch}>
+          <SearchBar placeholder="Calculator fx 99..." />
+        </div>
       </div>
       <div className={styles.headerRight}>
         <MessageButton

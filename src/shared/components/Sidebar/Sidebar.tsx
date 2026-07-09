@@ -1,5 +1,6 @@
 import styles from "./Sidebar.module.scss";
 import { Link, useNavigate } from "react-router-dom";
+import SearchBar from "../SearchBar/SearchBar";
 
 type sidebarProps = {
   mode?: "default" | "sell";
@@ -30,6 +31,10 @@ function Sidebar({ mode, onPost, onCancel}: sidebarProps) {
           Settings
         </Link>
       </nav>
+
+      <div className={styles.mobileSearch}>
+        <SearchBar placeholder="Calculator fx 99..." />
+      </div>
 
       {mode === "sell" ? (
         <div className={styles.sellActions}>
