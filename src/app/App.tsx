@@ -10,8 +10,8 @@ import MessagePage from '../features/messages/pages/MessagePage';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<AuthPage />}/>
-      <Route path="/home" element={<HomePage />}/>
+      <Route path="/login" element={<AuthPage />}/>
+      <Route path="/" element={<HomePage />}/>
       <Route path="/my-ads" element={< MyAdPage/>}/>
       <Route path="/settings" element={<ProfilePage />}/>
       <Route path="/sell" element={<AdDetailsPage />}/>
