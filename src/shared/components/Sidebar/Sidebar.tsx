@@ -1,4 +1,4 @@
-import styles from "./Sidebar.module.css";
+import styles from "./Sidebar.module.scss";
 import { Link, useNavigate } from "react-router-dom";
 
 type sidebarProps = {

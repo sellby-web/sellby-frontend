@@ -6,7 +6,7 @@
     width: 94%;
     padding: 10px 8px;
 
-    border-bottom: solid 1px #E3E3E3;
+    border-bottom: solid 1px $color-border-muted;
     cursor: pointer;
 }
 
@@ -21,7 +21,7 @@
     
     border-radius: 999px;
     overflow: hidden;
-    background-color: #FACFBC;
+    background-color: $color-avatar-bg;
 }
 
 .messageCardAvatar {
@@ -33,7 +33,7 @@
 .avatarName {
     font-size: 1.2rem;
     font-weight: 500;
-    color: #000;
+    color: $color-text;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -50,9 +50,9 @@
   justify-content: center;
 
   border-radius: 999px;
-  background-color: #78ed99;
+  background-color: $color-indicator;
 
   font-size: 0.85rem;
   font-weight: 600;
-  color: #000;
+  color: $color-text;
 }

@@ -13,7 +13,7 @@
   width: 120px;
   height: 160px;
   border-radius: 8px;
-  background: #F4EADE;
+  background: $color-surface-alt;
   flex-shrink: 0;
 }
 
@@ -34,12 +34,12 @@
   font-size: 14px;
   font-weight: 600;
   line-height: 1.2;
-  color: #3B3F69;
+  color: $color-primary;
 }
 
 .productCardContentSubject {
   font-size: 12px;
-  color: #777;
+  color: $color-text-muted;
 }
 
 .productCardContentBottom {
@@ -55,19 +55,19 @@
 
 .productPrice {
   font-weight: 600;
-  color: #3B3F69;
+  color: $color-primary;
 }
 
 .postedTime {
   font-size: 12px;
-  color: #999;
+  color: $color-text-light;
 }
 
 .productEnquiryButton {
   padding: 6px 12px;
   border-radius: 16px;
-  background: #FFD4C1;
-  color: #3B3F69;
+  background: $color-brand-light;
+  color: $color-primary;
   cursor: pointer;
   border: none;
 }
@@ -85,7 +85,7 @@
   border: none;
   cursor: pointer;
 
-  background-color: #FFD1D1;
+  background-color: $color-danger-bg;
 }
 
 .deleteIcon {
@@ -102,6 +102,6 @@
 
   padding: 10px 16px;
 
-  background-color: #E0E0E0;
-  color: black;
+  background-color: $color-border;
+  color: $color-text;
 }

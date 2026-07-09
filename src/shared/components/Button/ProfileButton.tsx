@@ -1,4 +1,4 @@
-import styles from './ProfileButton.module.css'
+import styles from './ProfileButton.module.scss'
 
 type ProfileButtonProps = {
     name: string;

@@ -4,14 +4,14 @@
     height: 100%;
     width: 400px;
     margin-top: 78px;
-    border-top: solid 1px #e0e0e0;
+    border-top: solid 1px $color-border;
 }
 .chatHeader {
     display: flex;
     align-items: center;
     gap: 12px;
     padding: 14px 20px;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid $color-border;
 }
 
 .backIcon {
@@ -33,7 +33,7 @@
     border-radius: 999px;
     border: none;
     overflow: hidden;
-    background-color: #FACFBC;
+    background-color: $color-avatar-bg;
 }
 .avatar {
     width: 40px;
@@ -45,10 +45,10 @@
     margin: 0;
     font-size: 16px;
     font-weight: 400;
-    color: black;
+    color: $color-text;
 }
 .deleteButton {
-    background-color: #FFD1D1;
+    background-color: $color-danger-bg;
     border: none;
     border-radius: 999px;
     width: 40px;
@@ -58,7 +58,7 @@
 .deleteIcon {
     width: 16px;
     height: 16px;
-    color: black;
+    color: $color-text;
 }
 .messagesContainer {
     flex: 1;
@@ -72,24 +72,24 @@
     display: flex;
     align-items: center;
     padding: 16px 20px;
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid $color-border;
     gap: 10px;
 }
 .messageInput {
     flex: 1;
     padding: 10px 16px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid $color-border;
     border-radius: 10px;
     background-color: white;
     font-size: 14px;
-    color: black;
+    color: $color-text;
     outline: none;
 }
 
 .sendButton {
   padding: 10px 20px;
-  background-color: #E67E51;
-  color: black;
+  background-color: $color-brand;
+  color: $color-text;
   border: none;
   border-radius: 10px;
   font-size: 14px;

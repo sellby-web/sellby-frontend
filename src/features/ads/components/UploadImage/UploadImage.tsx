@@ -1,4 +1,4 @@
-import styles from "./UploadImage.module.css";
+import styles from "./UploadImage.module.scss";
 
 function UploadImage() {
   return (

@@ -1,4 +1,4 @@
-import styles from "./AuthPage.module.css";
+import styles from "./AuthPage.module.scss";
 import background from "../assets/background.png";
 import mascot from "../assets/sellby-masscot.png";
 import { useState } from "react";

@@ -1,4 +1,4 @@
-import styles from "./MessageButton.module.css";
+import styles from "./MessageButton.module.scss";
 
 type MessageButtonProps = {
   label: string;

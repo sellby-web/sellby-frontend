@@ -1,4 +1,4 @@
-import styles from "./CategoryChips.module.css";
+import styles from "./CategoryChips.module.scss";
 
 type categoryProps = {
   categories: string[];

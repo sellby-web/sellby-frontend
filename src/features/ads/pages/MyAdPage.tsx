@@ -1,7 +1,7 @@
 import Header from "../../../app/layout/Header";
 import Sidebar from "../../../shared/components/Sidebar/Sidebar";
 import ProductCatalog from "../../../shared/components/ProductCatalog/ProductCatalog";
-import styles from "./MyAdPage.module.css";
+import styles from "./MyAdPage.module.scss";
 
 function MyAdPage() {
   const products = [

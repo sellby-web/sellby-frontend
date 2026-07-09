@@ -1,7 +1,7 @@
 import Header from "../../../app/layout/Header";
 import Sidebar from "../../../shared/components/Sidebar/Sidebar";
 import MessageCatalog from "../components/MessageCatalog/MessageCatalog";
-import styles from "./MessagePage.module.css";
+import styles from "./MessagePage.module.scss";
 import MessagePanel from "../components/MessagePanel/MessagePanel";
 import { useState } from "react";
 

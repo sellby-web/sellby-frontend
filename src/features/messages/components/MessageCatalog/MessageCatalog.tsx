@@ -1,4 +1,4 @@
-import styles from "./MessageCatalog.module.css";
+import styles from "./MessageCatalog.module.scss";
 import MessageCard from "../MessageCard/MessageCard";
 
 type user = {

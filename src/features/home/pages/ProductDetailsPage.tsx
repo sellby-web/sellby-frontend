@@ -1,6 +1,6 @@
 import Header from "../../../app/layout/Header";
 import Sidebar from "../../../shared/components/Sidebar/Sidebar";
-import styles from "./ProductDetailsPage.module.css";
+import styles from "./ProductDetailsPage.module.scss";
 import { useNavigate } from "react-router-dom";
 
 type ProductDetailsPageProps = {

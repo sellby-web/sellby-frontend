@@ -11,7 +11,7 @@
 }
 
 .pageTitle{
-    color: black;
+    color: $color-text;
     font-weight: 500;
 }
 
@@ -39,7 +39,7 @@
   display: flex;
   align-items: center;
   gap: 16px;
-  color: black;
+  color: $color-text;
 
 }
 
@@ -58,7 +58,7 @@
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    background-color: #facfbc;
+    background-color: $color-avatar-bg;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,7 +68,7 @@
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background-color: #facfbc;
+  background-color: $color-avatar-bg;
   object-fit: cover;
 }
 
@@ -106,13 +106,13 @@
 }
 
 .deleteButton {
-  background-color: #FFD1D1;
-  color: black;
+  background-color: $color-danger-bg;
+  color: $color-text;
 }
 
 .logoutButton {
-  background-color: #E67E51;
-  color: black;
+  background-color: $color-brand;
+  color: $color-text;
 }
 
 .deleteIcon,

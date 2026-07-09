@@ -1,6 +1,6 @@
 import Header from "../../../app/layout/Header";
 import Sidebar from "../../../shared/components/Sidebar/Sidebar";
-import styles from "./ProfilePage.module.css";
+import styles from "./ProfilePage.module.scss";
 import { useNavigate } from "react-router-dom";
 
 type profilePageProps = {

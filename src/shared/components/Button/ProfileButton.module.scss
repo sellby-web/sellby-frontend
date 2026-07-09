@@ -9,11 +9,11 @@
     border: none;
     cursor: pointer;
 
-    background-color: #e7d3c5;
-    color: black;
+    background-color: $color-sidebar-btn;
+    color: $color-text;
 
     font-weight: 400;
-    font-family: poppins, sans-serif;
+    font-family: $font-primary;
 
     height: 65px;
     min-width: 230px;
@@ -23,7 +23,7 @@
     width: 54px;
     height: 54px;
     border-radius: 50%;
-    background-color: #E67E51;
+    background-color: $color-brand;
 }
 
 .profileName {

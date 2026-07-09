@@ -1,7 +1,7 @@
 .formTitle {
     font-size: 24px;
     font-weight: bold;
-    color: black;
+    color: $color-text;
 }
 
 .fieldGroup {
@@ -14,10 +14,10 @@
     padding: 10px 0;
     font-size: 16px;
     border: none;
-    border-bottom: 1.5px solid #d6d6d6;
+    border-bottom: 1.5px solid $color-border-input;
     outline: none;
     background: transparent;
-    color: #222;
+    color: $color-text-dark;
     transition: border-color 0.2s ease;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .fieldGroup input::placeholder {
-  color: #9a9a9a;
+  color: $color-text-placeholder;
   font-size: 14px;
 }
 

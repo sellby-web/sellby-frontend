@@ -26,7 +26,7 @@ box-sizing: border-box;
     font-family: "Syne", sans-serif;
     font-weight: 700;
     font-size: 24px;
-    color: black;
+    color: $color-text;
 }
 
 .logo h1 {
@@ -35,11 +35,11 @@ box-sizing: border-box;
 }
 
 .logo h1:first-child {
-    color: black;
+    color: $color-text;
     font-weight: 700;
 }
 
 .logo h1:last-child {
-    color: #D06132;
+    color: $color-brand-dark;
     font-weight: 700;
 }

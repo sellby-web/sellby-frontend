@@ -1,4 +1,4 @@
-import styles from "./MessageCard.module.css";
+import styles from "./MessageCard.module.scss";
 
 type MessageCardProps = {
   name: string;

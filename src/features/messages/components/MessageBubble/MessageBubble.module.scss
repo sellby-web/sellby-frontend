@@ -22,7 +22,7 @@
 }
 
 .sent {
-    background-color: #E67E51;
+    background-color: $color-brand;
     border-bottom-right-radius: 4px;
 }
 
@@ -35,12 +35,12 @@
     margin: 0;
     font-size: 14px;
     line-height: 1.5;
-    color: black;
+    color: $color-text;
 }
 
 .timestamp {
     font-size: 11px;
-    color: #999;
+    color: $color-text-light;
     margin-top: 3px;
     padding: 0 4px;
 }

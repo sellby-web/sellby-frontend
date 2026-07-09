@@ -1,7 +1,7 @@
 import Header from "../../../app/layout/Header";
 import ProductCatalog from "../../../shared/components/ProductCatalog/ProductCatalog";
 import Sidebar from "../../../shared/components/Sidebar/Sidebar";
-import styles from "./HomePage.module.css";
+import styles from "./HomePage.module.scss";
 
 function HomePage() {
   const products = [

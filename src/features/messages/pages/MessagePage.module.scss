@@ -3,7 +3,7 @@
 }
 
 .messagePageTitle{
-    color: black;
+    color: $color-text;
     font-size: 24px;
     font-weight: 600;
 }
@@ -17,7 +17,7 @@
 .catalogSectionStyle {
     flex-shrink: 0;
     width: 400px;
-    border-right: 1px solid #e8e2d9;
+    border-right: 1px solid $color-border-warm;
 }
 
 .panelSectionStyle {

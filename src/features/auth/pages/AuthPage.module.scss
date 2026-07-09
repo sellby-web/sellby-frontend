@@ -43,12 +43,12 @@
 }
 
 .logo h1:first-child {
-    color: black;
+    color: $color-text;
     font-weight: 700;
 }
 
 .logo h1:last-child {
-    color: #D06132;
+    color: $color-brand-dark;
     font-weight: 700;
 }
 
@@ -60,14 +60,14 @@
     padding: 8px 0;
     font-size: 16px;
     outline: none;
-    color: #555;
+    color: $color-text-medium;
 }
 
 .loginButton {
-    color: black;
+    color: $color-text;
     font-size: 16px;
     font-weight: 500;
-    background-color: #D06132;
+    background-color: $color-brand-dark;
     border: none;
     border-radius: 999px;
     padding: 12px 24px;
@@ -76,6 +76,6 @@
 
 .termsLink {
     font-size: 12px;
-    color: #555;
+    color: $color-text-medium;
     text-decoration: underline;
 }

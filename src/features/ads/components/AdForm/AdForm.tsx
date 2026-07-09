@@ -1,5 +1,5 @@
 import UploadImage from "../UploadImage/UploadImage";
-import styles from "./AdForm.module.css";
+import styles from "./AdForm.module.scss";
 import { useState } from "react";
 import CategoryChips from "../../../../shared/components/CategoryChips/CategoryChips";
 

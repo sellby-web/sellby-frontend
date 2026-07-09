@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./MessagePanel.module.css";
+import styles from "./MessagePanel.module.scss";
 import MessageBubble from "../MessageBubble/MessageBubble";
 
 type message = {

@@ -1,5 +1,5 @@
 import ProductCard from "../ProductCard/ProductCard";
-import styles from "./ProductCatalog.module.css";
+import styles from "./ProductCatalog.module.scss";
 
 type Product = {
   id: number;

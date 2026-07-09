@@ -14,7 +14,7 @@
     flex-direction: column;
     max-width: 650px;
     padding: 20px;
-    margin-right: solid 1px black;
+    margin-right: solid 1px $color-text;
     overflow-y: auto;
 }
 
@@ -26,13 +26,13 @@
 .backIcon {
     width: 16px;
     height: 16px;
-    color: black;
+    color: $color-text;
 }
 
 .productTitle {
     font-size: 22px;
     font-weight: 400;
-    color: black;
+    color: $color-text;
 }
 
 .sellerInfo {
@@ -45,7 +45,7 @@
 .userImageContainer {
     width: 54px;
     height: 54px;
-    background-color: #FACFBC;
+    background-color: $color-avatar-bg;
     border-radius: 999px;
 }
 
@@ -58,7 +58,7 @@
 
 .sellerName {
     font-size: 18px;
-    color: black;
+    color: $color-text;
     background-color: none;
     font-weight: 400;
 }
@@ -66,11 +66,11 @@
 .messageButton {
     border: none;
     border-radius: 999px;
-    background-color: #E67E51;
+    background-color: $color-brand;
     align-items: center;
     padding: 15px 20px;
     font-size: 18px;
-    color: black;
+    color: $color-text;
     font-weight: 600;
     margin-left: auto;
 }
@@ -88,12 +88,12 @@
     border-radius: 10px;
 
     position: relative;
-    background-color: #F4EADE;
+    background-color: $color-surface-alt;
 }
 
 .productDescription {
     font-size: 14px;
-    color: black;
+    color: $color-text;
     background-color: none;
     font-weight: 400s;
 }
@@ -107,10 +107,10 @@
 .price {
     font-size: 24px;
     font-weight: 600;
-    color: black;
+    color: $color-text;
 }
 
 .timeStamp {
     font-size: 14px;
-    color: black;
+    color: $color-text;
 }
