@@ -1,0 +1,139 @@
+/* Only shows on mobile */
+.mobileNav {
+  display: none;
+
+  @media (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    height: 72px;
+    padding: 0 8px;
+    padding-bottom: env(safe-area-inset-bottom); /* iPhone notch support */
+
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+
+    border-top: 1px solid $color-border-warm;
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.06);
+  }
+}
+
+/* Regular nav items */
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  flex: 1;
+  height: 100%;
+  padding: 0;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  color: $color-text-muted;
+  transition: color 0.15s ease;
+
+  &:active {
+    transform: scale(0.93);
+  }
+
+  &.active {
+    color: $color-brand;
+
+    .navLabel {
+      font-weight: 600;
+    }
+  }
+}
+
+.navIcon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.navLabel {
+  font-size: 11px;
+  font-family: $font-primary;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* Unread badge on messages icon */
+.iconWrapper {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+}
+
+.badge {
+  position: absolute;
+  top: -4px;
+  right: -6px;
+
+  background-color: $color-brand;
+  color: white;
+
+  min-width: 16px;
+  height: 16px;
+  padding: 0 3px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 999px;
+  border: 2px solid white;
+
+  font-size: 9px;
+  font-weight: 700;
+  font-family: $font-primary;
+  line-height: 1;
+}
+
+/* Centre sell FAB */
+.sellFab {
+  position: relative;
+  top: -16px; /* Lifts out of the bar */
+
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
+
+  background: $color-brand;
+  color: white;
+
+  display: grid;
+  place-items: center;
+
+  box-shadow: 0 4px 16px rgba(230, 126, 81, 0.45);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:active {
+    transform: scale(0.92);
+    box-shadow: 0 2px 8px rgba(230, 126, 81, 0.4);
+  }
+}
+
+.sellIcon {
+  width: 26px;
+  height: 26px;
+  color: white;
+}

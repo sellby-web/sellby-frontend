@@ -1,6 +1,6 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.appWrapper {
+  /* Add bottom padding on mobile so content clears the fixed nav bar */
+  @media (max-width: 768px) {
+    padding-bottom: 80px;
+  }
 }
